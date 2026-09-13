@@ -18,4 +18,4 @@ def run() -> None:
             build_carousel_section(projects)
             build_skills_section(skills_data)
 
-    ui.run(title="Isabella Gonçalves ✦ Portfolio", reload=False)
+    ui.run(title="Isabella Gonçalves ✦ Portfolio", reload=False, favicon="🎐")
