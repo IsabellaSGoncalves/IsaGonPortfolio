@@ -1,0 +1,310 @@
+.an-carousel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.an-carousel-eyebrow {
+    margin-bottom: 0.25rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.an-carousel-title {
+    margin: 0;
+    color: var(--text-light);
+    font-family: "Cinzel", serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.an-carousel-card {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-height: 34rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    background: var(--panel);
+}
+
+.an-carousel-grid {
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+    min-height: 34rem;
+}
+
+.an-carousel-img-wrap {
+    position: relative;
+    min-height: 34rem;
+    overflow: hidden;
+    background: var(--bg-mid-dark);
+}
+
+.an-carousel-img-wrap>.q-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.an-carousel-img-wrap img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: sepia(20%) brightness(0.75);
+}
+
+.an-carousel-fade-r,
+.an-carousel-fade-b {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    opacity: 0.1;
+}
+
+.an-carousel-fade-r {
+    background: linear-gradient(to right,
+            rgba(26, 24, 33, 0) 60%,
+            var(--bg-dark) 100%);
+}
+
+.an-carousel-fade-b {
+    background: linear-gradient(to bottom,
+            rgba(26, 24, 33, 0.3),
+            rgba(26, 24, 33, 0));
+}
+
+.an-carousel-frame {
+    position: relative;
+    padding-left: 2rem;
+    padding-right: 4rem;
+    box-sizing: border-box;
+}
+
+.an-botanical {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 22rem;
+    height: 106%;
+    overflow: visible;
+    pointer-events: none;
+    opacity: 0.9;
+    transform: translateY(-25%);
+    z-index: 2;
+}
+
+.an-botanical img {
+    width: 22rem !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    object-position: left center !important;
+}
+
+.an-carousel-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 2.5rem;
+}
+
+.an-tag-row,
+.an-tech-row,
+.an-carousel-nav,
+.an-nav-btns,
+.an-dots {
+    display: flex;
+    align-items: center;
+}
+
+.an-tag-row {
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.an-tag {
+    padding: 0.25rem 0.75rem;
+    border: 1px solid rgba(215, 200, 222, 0.5);
+    color: var(--accent);
+    font-size: 0.6rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    background: rgba(215, 200, 222, 0.08);
+}
+
+.an-year {
+    font-size: 0.7rem;
+    opacity: 0.4;
+}
+
+.an-proj-title {
+    margin: 0 0 1rem;
+    color: var(--text-light);
+    font-family: "Cinzel", serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.an-proj-title a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: currentColor;
+    text-underline-offset: 0.15em;
+}
+
+.an-proj-desc {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-style: oblique;
+    line-height: 1.7;
+    opacity: 0.75;
+}
+
+.an-tech-row {
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.an-tech-chip {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid rgba(252, 232, 211, 0.25);
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    opacity: 0.6;
+}
+
+.an-carousel-nav {
+    gap: 0.5rem;
+}
+
+.an-nav-count {
+    font-size: 0.7rem;
+    opacity: 0.4;
+}
+
+.an-nav-btns {
+    gap: 0.5rem;
+    margin-left: auto;
+}
+
+.an-nav-btn,
+.an-nav-btn .q-btn__content,
+.an-nav-btn .q-btn__content span {
+    display: flex;
+    width: 2.25rem;
+    height: 2.25rem;
+    min-width: 0;
+    min-height: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    border: none;
+    color: var(--text-muted) !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: color 0.2s ease, background 0.2s ease;
+}
+
+.an-nav-btn {
+    border: 1px solid rgba(252, 232, 211, 0.35);
+    border-radius: 0 !important;
+}
+
+.an-nav-btn,
+.an-nav-btn .q-btn__content,
+.an-nav-btn .q-btn__content span {
+    border-color: var(--accent);
+    color: var(--accent) !important;
+    background: rgba(215, 200, 222, 0.08) !important;
+}
+
+.an-dots {
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    gap: 0.35rem;
+    min-height: 1.75rem;
+    margin-top: 1rem;
+    padding: 0.35rem 0;
+}
+
+.an-dots::before,
+.an-dots::after {
+    flex: 1;
+    height: 1px;
+    content: "";
+    background: var(--line);
+}
+
+.an-dot,
+.an-dot .q-btn__content,
+.an-dot .q-btn__content span {
+    width: 1.1rem;
+    height: 1.1rem;
+    min-height: 1.1rem;
+    padding: 0;
+    border: none;
+    color: var(--text-muted) !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    cursor: pointer;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 0.8rem;
+    line-height: 1;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.an-dot.active,
+.an-dot.active .q-btn__content,
+.an-dot.active .q-btn__content span,
+.an-dot,
+.an-dot .q-btn__content,
+.an-dot .q-btn__content span {
+    color: var(--accent) !important;
+    background: transparent !important;
+}
+
+@media (max-width: 900px) {
+    .an-carousel-grid {
+        grid-template-columns: 1.25fr 1fr;
+    }
+
+    .an-carousel-header {
+        padding-left: 1.5rem;
+    }
+
+    .an-carousel-frame {
+        padding-left: 3rem;
+    }
+
+    .an-carousel-img-wrap {
+        min-height: 27.2rem;
+    }
+
+    .an-carousel-card {
+        width: 100%;
+        min-height: 27.2rem;
+    }
+
+    .an-botanical {
+        width: 22rem;
+        transform: translateY(-34%);
+    }
+
+    .an-botanical img {
+        width: 22rem !important;
+    }
+
+}

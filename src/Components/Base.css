@@ -1,0 +1,119 @@
+:root {
+    --bg-darker: #08070b;
+    --bg-mid-dark: #111015;
+    --bg-dark: #1a1821;
+    --bg-elevated: #24202d;
+    --bg-elevated-hi: #302a3b;
+    --bg-mid-light: #57434f;
+    --text-light: #fce8d3;
+    --text-muted: #a9969e;
+    --accent: #d7c8de;
+    --accent-deep: #180d13;
+    --shadow: #020103;
+    --panel: rgba(36, 32, 45, 0.75);
+    --line: rgba(252, 232, 211, 0.2);
+}
+
+html {
+    background: var(--bg-dark) !important;
+    overflow-x: clip;
+    overflow-y: auto;
+}
+
+body {
+    margin: 0;
+    color: var(--text-light);
+    font-family: "Cormorant Garamond", Georgia, serif;
+    overflow: visible;
+}
+
+.q-page,
+.nicegui-content,
+.q-layout,
+.q-page-container {
+    max-width: none !important;
+    padding: 0 !important;
+    background: var(--bg-dark);
+    overflow: visible !important;
+}
+
+.an-page {
+    width: 100%;
+    overflow: visible;
+    background: var(--bg-dark);
+    color: var(--text-light);
+}
+
+.an-section {
+    position: relative;
+    padding: 6rem 1.5rem;
+    overflow: hidden;
+}
+
+.an-section.border-top {
+    border-top: 1px solid rgba(252, 232, 211, 0.15);
+}
+
+.an-max-lg {
+    max-width: 32rem;
+    margin: 0 auto;
+}
+
+.an-max-5xl {
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
+.an-divider {
+    width: 100%;
+    max-width: 36rem;
+    margin: 0 auto;
+}
+
+.an-eyebrow,
+.an-carousel-eyebrow,
+.an-card-title,
+.an-exp-period,
+.an-exp-role,
+.an-footer-sign,
+.an-tag,
+.an-year,
+.an-tech-chip,
+.an-nav-count {
+    font-family: "Cinzel", serif;
+}
+
+a {
+    color: inherit;
+}
+
+.an-reveal {
+    opacity: 1;
+    transform: none;
+}
+
+.has-reveal .an-reveal {
+    opacity: 0;
+    transform: translateY(2rem);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.has-reveal .an-reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .has-reveal .an-reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .an-section {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}

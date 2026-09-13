@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Meet tea [https://github.com/robertfullstack/Meet-TEA-3.0-Final]",
+    "tag": "Front-end Web Designer Developer",
+    "year": "2024 - 1º Semestre e 2º Semestre",
+    "desc": "Rede social inclusiva para pessoas autistas, com foco em comunicação e interação social, oferecendo recursos de acessibilidade e personalização para atender às necessidades específicas da comunidade.",
+    "tech": [
+      "React",
+      "JavaScript",
+      "Firebase"
+    ],
+    "img": "Images/MeetTea.png"
+  },
+  {
+    "title": "Seren [https://github.com/Best-of-the-class/sistema-gerenciamento-psicologia]",
+    "tag": "Back-end Web Developer",
+    "year": "2025 - 1º Semestre",
+    "desc": "Sistema de gerenciamento para psicólogos, com funcionalidades de cadastro de pacientes, registro de agendamentos visando otimizar a gestão do psicólogo.",
+    "tech": [
+      "React",
+      "MongoDB",
+      "Node.js",
+      "Express"
+    ],
+    "img": "Images/Seren.png"
+  },
+  {
+    "title": "Pindorama [https://github.com/Best-of-the-class/sistema-web-pindorama]",
+    "tag": "Back-end Web Developer",
+    "year": "2025 - 2º Semestre",
+    "desc": "Pindorama é uma aplicação web para difundir conteúdos sobre o Patrimônio Cultural Imaterial Brasileiro. O projeto visa promover a preservação e valorização das tradições culturais do Brasil.",
+    "tech": [
+      "Ruby on Rails",
+      "Python",
+      "React",
+      "Docker",
+      "PostGreSQL"
+    ],
+    "img": "Images/Pindorama.png"
+  },
+  {
+    "title": "Poupas [https://github.com/Best-of-the-class/Poupas]",
+    "tag": "Mobile - Desktop Front-end Web Developer",
+    "year": "2026 - 1º Semestre",
+    "desc": "O Poupas é um aplicativo mobile de gamificação para educação financeira voltado para o público infanto-juvenil. O objetivo do aplicativo é ensinar conceitos de economia e finanças de forma divertida.",
+    "tech": [
+      "Flutter",
+      ".NET",
+      "Dart",
+      "GO",
+      "PostGreSQL"
+    ],
+    "img": "Images/Poupas.png"
+  }
+]

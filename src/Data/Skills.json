@@ -1,0 +1,122 @@
+{
+  "skills": [
+    {
+      "label": "Frontend",
+      "items": [
+        "React",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Angular",
+        "TypeScript",
+        "Dart"
+      ]
+    },
+    {
+      "label": "Backend",
+      "items": [
+        "Node.js",
+        "Express",
+        "Python",
+        "Java",
+        "SQL",
+        "Ruby",
+        "GO",
+        "MongoDB",
+        "Firebase"
+      ]
+    },
+    {
+      "label": "Cloud & DevOps",
+      "items": [
+        "Azure",
+        "Docker",
+        "Vercel",
+        "Render",
+        "Git",
+        "GitHub",
+        "Nginx"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Assistente de T.I",
+      "company": "Cloud Target",
+      "period": "Mar/2026 - Presente",
+      "desc": "Atuo como assistente de T.I na aréa de automação, utilizando e desenvolvendo ferramentas como APIs, Azure Functions, Logic Apps e Microsoft Graph para otimizar processos internos e melhorar a eficiência operacional."
+    },
+    {
+      "role": "Estagiária de T.I",
+      "company": "Cloud Target",
+      "period": "Jul/2025 - Mar/2026",
+      "desc": "Atuava como estagiária de T.I, sendo proativa na busca de soluções para problemas internos, desenvolvendo ferramentas e scripts para automatizar processos e melhorar a eficiência da equipe."
+    }
+  ],
+  "right_column": [
+    {
+      "label": "Languages",
+      "is_lang": true,
+      "items": [
+        {
+          "name": "Português",
+          "level": "Nativo"
+        },
+        {
+          "name": "Inglês",
+          "level": "Avançado"
+        }
+      ]
+    },
+    {
+      "label": "Technologies",
+      "is_lang": false,
+      "items": [
+        {
+          "name": "Kotlin Multiplatform"
+        },
+        {
+          "name": "Java Swing"
+        },
+        {
+          "name": "Ruby on Rails"
+        },
+        {
+          "name": "Flutter"
+        },
+        {
+          "name": "Microsoft Graph"
+        },
+        {
+          "name": "Azure Functions"
+        },
+        {
+          "name": "Logic Apps"
+        },
+        {
+          "name": "Microsoft Sentinel"
+        }
+      ]
+    },
+    {
+      "label": "Education",
+      "is_lang": false,
+      "items": [
+        {
+          "name": "Desenvolvimento de Software Multiplataforma"
+        },
+        {
+          "name": "FATEC Zona Leste | Jan/2024 - Dez/2026"
+        },
+        {
+          "name": "Inglês Avançado"
+        },
+        {
+          "name": "Fisk Centro de Ensino | 2017 - 2022"
+        }
+      ]
+    }
+  ]
+}
