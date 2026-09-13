@@ -113,8 +113,6 @@ a {
     }
 }
 
-/* Profile / Hero */
-
 .an-hero {
     min-height: 100vh;
     display: flex;
@@ -334,8 +332,6 @@ a {
         mask-image: radial-gradient(circle 7rem at var(--reveal-x) var(--reveal-y), #000 0%, transparent 100%);
     }
 }
-
-/* Carousel */
 
 .an-carousel-header {
     display: flex;
@@ -625,7 +621,6 @@ a {
     }
 }
 
-/* Skills */
 
 .an-skills-section {
     isolation: isolate;
@@ -824,7 +819,6 @@ a {
     }
 }
 
-/* Shared divider helper */
 .an-divider-row {
     width: 100%;
     display: flex;
@@ -844,4 +838,59 @@ a {
     object-fit: contain;
     display: block;
     flex: none;
+}
+
+@media (max-width: 640px) {
+    .an-carousel-header {
+        padding-left: 0;
+    }
+
+    .an-carousel-frame {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .an-botanical {
+        width: 8rem;
+        height: 60%;
+        transform: translateY(-35%);
+        opacity: 0.6;
+    }
+
+    .an-botanical img {
+        width: 8rem !important;
+    }
+
+    .an-carousel-card,
+    .an-carousel-img-wrap {
+        min-height: auto;
+    }
+
+    .an-carousel-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .an-carousel-img-wrap {
+        min-height: 14rem;
+    }
+
+    .an-carousel-text {
+        padding: 1.5rem 1.25rem;
+    }
+
+    .an-proj-title {
+        font-size: 1.4rem;
+    }
+
+    .an-proj-desc {
+        font-size: 1.05rem;
+    }
+
+    .an-carousel-title {
+        font-size: 1.5rem;
+    }
+
+    .an-dots {
+        width: 60%;
+    }
 }
